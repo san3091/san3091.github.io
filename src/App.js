@@ -1,6 +1,7 @@
 import './App.css';
 import { useState } from 'react'
 import { Bio, ODeath, Ngn, Noise } from './Sections'
+import BackgroundSketch from './BackgroundSketch'
 
 const sections = {
   bio: Bio,
@@ -21,6 +22,9 @@ const App = () => {
 
   return (
     <div className="app">
+      <div className="background">
+        <BackgroundSketch className="background"/>
+      </div>
       <nav>
         { Object.keys(sections).map( section => (<button key={section} className="navitem" onClick={() => handleNavigation(section)}>{section}</button>)) }
         <h1 className="header-name">santiago<br/>quintana</h1>
