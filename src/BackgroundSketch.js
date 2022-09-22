@@ -27,6 +27,7 @@ const BackgroundSketch = (props) => {
 
     p5.endShape()
     start += inc
+    p5.noLoop()
   }
 
 

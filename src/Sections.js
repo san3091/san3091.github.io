@@ -2,36 +2,29 @@
 export const Bio = () => (
   <>
     <h2>bio</h2>
-    <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent venenatis orci sit amet risus porta tincidunt id quis risus. Praesent id convallis metus, vitae pharetra erat. Vestibulum ultricies ornare semper. Morbi lobortis tristique quam. Nullam congue ullamcorper finibus. Mauris vitae nunc vel eros euismod ullamcorper. Sed ut rhoncus velit. Fusce tristique id neque a euismod. Integer libero sapien, vestibulum eget eros et, porttitor interdum ex. Morbi euismod, dolor vitae mollis accumsan, urna neque porta magna, a semper turpis eros eu lacus. Vestibulum at nisi mi. Proin venenatis orci sed velit semper ornare. Maecenas pellentesque justo tellus, sit amet maximus orci pulvinar sed. Ut at mi eleifend, ultrices ex pharetra, luctus ex.
-
-  Proin non purus et nibh suscipit auctor. Sed eu justo eu nibh scelerisque sagittis. Aliquam leo lorem, venenatis non dui quis, faucibus consectetur metus. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Proin feugiat ut dui ut accumsan. Etiam eu leo justo. Praesent ultrices tempor metus, ac eleifend augue molestie vitae. Sed aliquam enim at lorem auctor sollicitudin. Aliquam gravida felis quis aliquet ullamcorper. Sed auctor sed nunc semper varius. Proin placerat bibendum ornare. </p>
+    <p>I am Santiago. I am a queer Mexican immigrant, a software engineer, musician, movement artist, and performer.</p>
   </>
 )
 
 export const ODeath = () => (
   <>
     <h2>o death</h2>
-    <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent venenatis orci sit amet risus porta tincidunt id quis risus. Praesent id convallis metus, vitae pharetra erat. Vestibulum ultricies ornare semper. Morbi lobortis tristique quam. Nullam congue ullamcorper finibus. Mauris vitae nunc vel eros euismod ullamcorper. Sed ut rhoncus velit. Fusce tristique id neque a euismod. Integer libero sapien, vestibulum eget eros et, porttitor interdum ex. Morbi euismod, dolor vitae mollis accumsan, urna neque porta magna, a semper turpis eros eu lacus. Vestibulum at nisi mi. Proin venenatis orci sed velit semper ornare. Maecenas pellentesque justo tellus, sit amet maximus orci pulvinar sed. Ut at mi eleifend, ultrices ex pharetra, luctus ex.
-
-  Proin non purus et nibh suscipit auctor. Sed eu justo eu nibh scelerisque sagittis. Aliquam leo lorem, venenatis non dui quis, faucibus consectetur metus. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Proin feugiat ut dui ut accumsan. Etiam eu leo justo. Praesent ultrices tempor metus, ac eleifend augue molestie vitae. Sed aliquam enim at lorem auctor sollicitudin. Aliquam gravida felis quis aliquet ullamcorper. Sed auctor sed nunc semper varius. Proin placerat bibendum ornare. </p>
+    <p>A music performance Directed by Santiago Quintana, and co-produced with Evan J Thompson</p>
+    <p>O death is an electroacoustic treatment of North Atlantic traditional/folk and old time music about death. In the show we meet Death in the mountains, travel to Britain by ship, get lost in southern Spain, take a detour to Mexico, and return to the United States just in time to twirl with those beyond the veil. We tell tales of those who have past, share foreboding dreams of dead lovers, honor the departed, defy death itself, and dance with the devil.</p>
   </>
 )
 
 export const Ngn = () => (
   <>
     <h2>ngn</h2>
-    <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent venenatis orci sit amet risus porta tincidunt id quis risus. Praesent id convallis metus, vitae pharetra erat. Vestibulum ultricies ornare semper. Morbi lobortis tristique quam. Nullam congue ullamcorper finibus. Mauris vitae nunc vel eros euismod ullamcorper. Sed ut rhoncus velit. Fusce tristique id neque a euismod. Integer libero sapien, vestibulum eget eros et, porttitor interdum ex. Morbi euismod, dolor vitae mollis accumsan, urna neque porta magna, a semper turpis eros eu lacus. Vestibulum at nisi mi. Proin venenatis orci sed velit semper ornare. Maecenas pellentesque justo tellus, sit amet maximus orci pulvinar sed. Ut at mi eleifend, ultrices ex pharetra, luctus ex.
-
-  Proin non purus et nibh suscipit auctor. Sed eu justo eu nibh scelerisque sagittis. Aliquam leo lorem, venenatis non dui quis, faucibus consectetur metus. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Proin feugiat ut dui ut accumsan. Etiam eu leo justo. Praesent ultrices tempor metus, ac eleifend augue molestie vitae. Sed aliquam enim at lorem auctor sollicitudin. Aliquam gravida felis quis aliquet ullamcorper. Sed auctor sed nunc semper varius. Proin placerat bibendum ornare. </p>
+    <p>Ngn (pronounced ‘engine’) is an album of snarky digital hardcore techno scrapbook produced during pandemic isolation. It stitches together deep anger, nonchalant sass, online life, and the need for musical violence as an escape hatch from reality.</p>
   </>
 )
 
-export const Noise = () => (
+export const Experiments = () => (
   <>
-    <h2>noise</h2>
-    <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent venenatis orci sit amet risus porta tincidunt id quis risus. Praesent id convallis metus, vitae pharetra erat. Vestibulum ultricies ornare semper. Morbi lobortis tristique quam. Nullam congue ullamcorper finibus. Mauris vitae nunc vel eros euismod ullamcorper. Sed ut rhoncus velit. Fusce tristique id neque a euismod. Integer libero sapien, vestibulum eget eros et, porttitor interdum ex. Morbi euismod, dolor vitae mollis accumsan, urna neque porta magna, a semper turpis eros eu lacus. Vestibulum at nisi mi. Proin venenatis orci sed velit semper ornare. Maecenas pellentesque justo tellus, sit amet maximus orci pulvinar sed. Ut at mi eleifend, ultrices ex pharetra, luctus ex.
-
-  Proin non purus et nibh suscipit auctor. Sed eu justo eu nibh scelerisque sagittis. Aliquam leo lorem, venenatis non dui quis, faucibus consectetur metus. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Proin feugiat ut dui ut accumsan. Etiam eu leo justo. Praesent ultrices tempor metus, ac eleifend augue molestie vitae. Sed aliquam enim at lorem auctor sollicitudin. Aliquam gravida felis quis aliquet ullamcorper. Sed auctor sed nunc semper varius. Proin placerat bibendum ornare. </p>
+    <h2>experiments</h2>
+    <p>My creative projects stem from a constant experimentation with a variety of media. I am particularly fond of no-input mixing to create resonant noise. This is an example of what that sounds like. It’s improvisational, immediate, and collaborative. Flow state vibes.</p>
   </>
 )
 
