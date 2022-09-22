@@ -26,11 +26,12 @@ const App = () => {
         <BackgroundSketch className="background"/>
       </div>
       <nav>
-        { Object.keys(sections).map( section => (
-          <button key={section} 
-            className={`navitem #{selectedSection == section ? "nav-active" : null}`} 
+        { Object.keys(sections).map( section => {
+          const activeClass = selectedSection === section ? "nav-active" : null
+          return <button key={section}
+          className={"navitem " + activeClass}
             onClick={() => handleNavigation(section)}>{section}</button>
-          )) 
+          }) 
         }
         <h1 className="header-name">santiago<br/>quintana</h1>
       </nav>
