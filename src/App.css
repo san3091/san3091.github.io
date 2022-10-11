@@ -5,6 +5,7 @@ button {
 }
 
 nav {
+  position: fixed;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -12,7 +13,6 @@ nav {
   font-size: 30px;
   padding-right: 40px;
   margin: 40px 0;
-  /*border-right: 1px solid gray;*/
   height: 90%;
 }
 
@@ -20,18 +20,25 @@ h1, h2 {
   background-color: white;
 }
 
+a:visited {
+  color: black;
+}
+
 .app {
   text-align: center;
   font-family: monospace;
   padding: 0 120px;
-  display: flex;
-  justify-content: space-between;
   height: 100vh;
 }
 
 .navitem {
   display: block;
   margin: 10px 0;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: black;
 }
 
 .nav-active:before {
@@ -44,11 +51,10 @@ h1, h2 {
   background-color: white;
 }
 
-.modal{
-  animation: modal-appear linear 20s linear;
-}
-
 .content-wrapper {
+  position: absolute;
+  right: 100px;
+  top: 50px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -56,7 +62,16 @@ h1, h2 {
   padding: 0 0 0 100px;
   font-size: 16px;
   line-height: 33px;
-  max-width: 600px;
+  max-width: 800px;
+}
+
+.image-container {
+  max-width: 500px;
+  align-self: end;
+}
+
+img {
+  width: 100%;
 }
 
 p {
@@ -76,19 +91,3 @@ p {
   }
 }
 
-@keyframes modal-appear {
-  0% {
-    display: none;
-    opacity: 0;
-  }
-
-  1% {
-    display: block;
-    opacity: 0;
-  }
-
-  100% {
-    display: block;
-    opacity: 1;
-  }
-}

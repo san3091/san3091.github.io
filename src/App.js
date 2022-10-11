@@ -31,7 +31,7 @@ const App = () => {
           return <button key={section}
           className={"navitem " + activeClass}
             onClick={() => handleNavigation(section)}>{section}</button>
-          }) 
+          })
         }
         <h1 className="header-name">santiago<br/>quintana</h1>
       </nav>

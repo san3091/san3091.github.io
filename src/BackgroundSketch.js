@@ -1,6 +1,5 @@
 import { memo } from 'react'
 import Sketch from 'react-p5'
-import "p5/lib/addons/p5.sound"
 
 const BackgroundSketch = (props) => {
 
@@ -11,6 +10,7 @@ const BackgroundSketch = (props) => {
     p5.createCanvas(window.innerWidth, window.innerHeight).parent(canvasParentRef)
   }
 
+  // in mobile make the wave go from top to bottom (rotate 90deg)
   const draw = (p5) => {
     p5.background(255)
     p5.stroke(200)
