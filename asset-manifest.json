@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/static/css/main.bda0f7b6.css",
-    "main.js": "/static/js/main.97dc6b63.js",
+    "main.js": "/static/js/main.373f6834.js",
     "static/js/787.3e7823d0.chunk.js": "/static/js/787.3e7823d0.chunk.js",
     "static/media/o-death-medium.png": "/static/media/o-death-medium.5d0a9f890c26e78b1847.png",
     "static/media/ngn-cover.png": "/static/media/ngn-cover.5ea68f96ceb7a07ba765.png",
     "index.html": "/index.html",
     "main.bda0f7b6.css.map": "/static/css/main.bda0f7b6.css.map",
-    "main.97dc6b63.js.map": "/static/js/main.97dc6b63.js.map",
+    "main.373f6834.js.map": "/static/js/main.373f6834.js.map",
     "787.3e7823d0.chunk.js.map": "/static/js/787.3e7823d0.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.bda0f7b6.css",
-    "static/js/main.97dc6b63.js"
+    "static/js/main.373f6834.js"
   ]
 }
