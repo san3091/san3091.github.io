@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import {
-  createBrowserRouter,
+  createHashRouter,
   RouterProvider,
 } from 'react-router-dom';
 import Base from './Base'
@@ -11,7 +11,7 @@ import './index.css';
 import './App.css';
 import reportWebVitals from './reportWebVitals';
 
-const router = createBrowserRouter([
+const router = createHashRouter([
   {
     path: "/",
     element: <Base />,
