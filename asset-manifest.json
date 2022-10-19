@@ -1,18 +1,18 @@
 {
   "files": {
     "main.css": "/static/css/main.dce65f43.css",
-    "main.js": "/static/js/main.46236510.js",
+    "main.js": "/static/js/main.db5647a4.js",
     "static/js/787.3e7823d0.chunk.js": "/static/js/787.3e7823d0.chunk.js",
     "static/media/o-death-medium.png": "/static/media/o-death-medium.5d0a9f890c26e78b1847.png",
     "static/media/ngn-cover.png": "/static/media/ngn-cover.5ea68f96ceb7a07ba765.png",
     "static/media/hamburger.png": "/static/media/hamburger.a633845bca57a0d1a648.png",
     "index.html": "/index.html",
     "main.dce65f43.css.map": "/static/css/main.dce65f43.css.map",
-    "main.46236510.js.map": "/static/js/main.46236510.js.map",
+    "main.db5647a4.js.map": "/static/js/main.db5647a4.js.map",
     "787.3e7823d0.chunk.js.map": "/static/js/787.3e7823d0.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.dce65f43.css",
-    "static/js/main.46236510.js"
+    "static/js/main.db5647a4.js"
   ]
 }
