@@ -1,0 +1,25 @@
+@media only screen and (max-width: 600px) {
+  .app {
+    flex-direction: column;
+    padding: 30px;
+  }
+
+  nav {
+    background-color: white;
+  }
+
+  .nav-mobile {
+    display: inline-block;
+    background-color: white;
+    z-index: 100;
+  }
+  
+  .content-wrapper {
+    text-align: left;
+    padding-left: 30px;
+    left: 0;
+    top: 33px;
+    right: 30px;
+  }
+
+}

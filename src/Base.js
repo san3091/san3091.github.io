@@ -1,24 +1,23 @@
 import BackgroundSketch from './BackgroundSketch'
-import { Outlet, NavLink } from 'react-router-dom'
+import { Outlet } from 'react-router-dom'
+import Nav from './Nav'
+import { useState } from 'react'
 
 const sections = ["bio", "o-death", "ngn", "experiments"]
 
 const Base = () => {
-  const baseNavClasses = "navitem nav-link"
+
+  const [showNav, setShowNav] = useState(true)
+
+  const contentClassNames = `content-wrapper ${ showNav ? "hide" : "show" }`
+
   return (
     <div className="app">
       <div className="background">
         <BackgroundSketch className="background"/>
       </div>
-      <nav>
-        { sections.map( section => (
-          <NavLink to={section} key={section} className={({ isActive }) => isActive ? baseNavClasses + " nav-active" : baseNavClasses}>
-            {section.replace("-", " ")}
-          </NavLink>
-        ))}
-        <h1 className="header-name">santiago<br/>quintana</h1>
-      </nav>
-      <section className="content-wrapper">
+      <Nav sections={sections} showNav={showNav} setShowNav={setShowNav}/>
+      <section className={contentClassNames}>
         <Outlet />
       </section>
     </div>
