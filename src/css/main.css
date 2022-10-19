@@ -26,8 +26,12 @@ nav {
   right: 0;
 }
 
-h1, h2 {
+h1, h2, h3 {
   background-color: white;
+}
+
+h3 {
+  text-decoration: underline;
 }
 
 a:visited {

@@ -6,7 +6,7 @@ import {
 } from 'react-router-dom';
 import Base from './Base'
 import NotFound from './NotFound'
-import { Bio, ODeath, Ngn, Experiments} from './Sections'
+import { Bio, ODeath, Ngn, Experiments, ODeathProgramNotes } from './Sections'
 import './index.css';
 import './App.css';
 import reportWebVitals from './reportWebVitals';
@@ -20,6 +20,10 @@ const router = createHashRouter([
       {
         path: "o-death",
         element: <ODeath />,
+      },
+      {
+        path: "o-death/program-notes",
+        element: <ODeathProgramNotes />,
       },
       {
         path: "bio",
