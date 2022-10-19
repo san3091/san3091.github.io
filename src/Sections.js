@@ -1,5 +1,6 @@
 import odeath from './img/o-death-medium.png'
 import ngnCover from './img/ngn-cover.png'
+import { NavLink } from 'react-router-dom'
 
 export const Bio = () => (
   <>
@@ -13,6 +14,7 @@ export const ODeath = () => (
     <h2>o death</h2>
   <p>a music performance Directed by Santiago Quintana<br/>co-produced with Evan J Thompson</p>
   <p>november 5th at Facility Theater, Chicago IL - <a href="https://www.eventbrite.com/e/o-death-facility-theatre-tickets-439655239657">tickets</a><br/>november 11th at Color Club, Chicago IL - <a href="https://www.eventbrite.com/e/o-death-color-club-tickets-439205313917" target="_blank" rel="noreferrer">tickets</a></p>
+  <p><NavLink to="/o-death/program-notes">program notes</NavLink></p>
     <div className="image-container">
       <img src={odeath} alt="A.I. generated skeleton holding a banjo in a foggy wetland" />
     </div>
