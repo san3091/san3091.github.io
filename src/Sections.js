@@ -28,7 +28,8 @@ export const Ngn = () => (
     <div className="image-container">
       <img src={ngnCover} alt="distressed depiction of santiago grimacing" />
     </div>
-    <p>Ngn (pronounced ‘engine’) is an album of snarky digital hardcore techno scrapbook produced during pandemic isolation. It stitches together deep anger, nonchalant sass, online life, and the need for musical violence as an escape hatch from reality.</p>
+    <p><a href="https://soundcloud.com/san3091/sets/ngn-1?si=abfff4e0e3c545d9b36b379210f196b8&utm_source=clipboard&utm_medium=text&utm_campaign=social_sharing">listen on soundcloud</a></p>
+    <p>ngn (pronounced ‘engine’) is an album of snarky digital hardcore techno scrapbook produced during pandemic isolation. It stitches together deep anger, nonchalant sass, online life, and the need for musical violence as an escape hatch from reality.</p>
   </>
 )
 
