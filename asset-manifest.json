@@ -1,18 +1,27 @@
 {
   "files": {
     "main.css": "/static/css/main.7b05afe3.css",
-    "main.js": "/static/js/main.756e5cc9.js",
+    "main.js": "/static/js/main.8363d2a7.js",
     "static/js/787.3e7823d0.chunk.js": "/static/js/787.3e7823d0.chunk.js",
     "static/media/o-death-medium.png": "/static/media/o-death-medium.5d0a9f890c26e78b1847.png",
+    "static/media/o-death2.jpg": "/static/media/o-death2.f8cf1021fe044b1bdc03.jpg",
     "static/media/ngn-cover.png": "/static/media/ngn-cover.5ea68f96ceb7a07ba765.png",
+    "static/media/o-death4.jpg": "/static/media/o-death4.0cfa5eb490c9a1215914.jpg",
+    "static/media/ititis3.jpg": "/static/media/ititis3.799a95980e47beb442ca.jpg",
+    "static/media/ititis5.jpg": "/static/media/ititis5.cf3a42446608fa4e278d.jpg",
+    "static/media/o-death3.jpg": "/static/media/o-death3.9b79e306f17e5c5b1628.jpg",
+    "static/media/o-death1.jpg": "/static/media/o-death1.f918f9e1b7103a80f5a7.jpg",
+    "static/media/ititis2.jpg": "/static/media/ititis2.2a4b95488a0ead1d304d.jpg",
+    "static/media/ititis4.jpg": "/static/media/ititis4.ee3a6a1c2138aea00c5d.jpg",
+    "static/media/ititis1.jpg": "/static/media/ititis1.38b82569672dc3843206.jpg",
     "static/media/hamburger.png": "/static/media/hamburger.a633845bca57a0d1a648.png",
     "index.html": "/index.html",
     "main.7b05afe3.css.map": "/static/css/main.7b05afe3.css.map",
-    "main.756e5cc9.js.map": "/static/js/main.756e5cc9.js.map",
+    "main.8363d2a7.js.map": "/static/js/main.8363d2a7.js.map",
     "787.3e7823d0.chunk.js.map": "/static/js/787.3e7823d0.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.7b05afe3.css",
-    "static/js/main.756e5cc9.js"
+    "static/js/main.8363d2a7.js"
   ]
 }
