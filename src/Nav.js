@@ -24,7 +24,7 @@ const Nav = ({ sections, showNav, setShowNav, mQuery}) => {
       <nav className={showNav ? "show" : "hide"}>
         { sections.map( section => (
           <NavLink to={section} onClick={handleLinkClick} key={section} className={({ isActive }) => isActive ? baseNavClasses + " nav-active" : baseNavClasses}>
-            {section.replace("-", " ")}
+            {section.replaceAll("-", " ")}
           </NavLink>
         ))}
         <h1 className="header-name">santiago<br/>quintana</h1>

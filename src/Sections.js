@@ -1,5 +1,14 @@
-import odeath from './img/o-death-medium.png'
+import odeathCover from './img/o-death-medium.png'
+import oDeath1 from './img/o-death1.jpg'
+import oDeath2 from './img/o-death2.jpg'
+import oDeath3 from './img/o-death3.jpg'
+import oDeath4 from './img/o-death4.jpg'
 import ngnCover from './img/ngn-cover.png'
+import ititis1 from './img/ititis1.jpg'
+import ititis2 from './img/ititis2.jpg'
+import ititis3 from './img/ititis3.jpg'
+import ititis4 from './img/ititis4.jpg'
+import ititis5 from './img/ititis5.jpg'
 import { NavLink } from 'react-router-dom'
 
 export const Bio = () => (
@@ -9,16 +18,55 @@ export const Bio = () => (
   </>
 )
 
+export const ItItIs = () => (
+  <>
+    <h2>it it is</h2>
+    <p>multichannel sound performance created for <a href="https://elasticarts.org/cleat" target="_blank" rel="noreferrer">CLEAT Chicago</a> in collaboration with <a href="https://cargocollective.com/robertscheuering" target="_blank" rel="noreferrer">Rob Scheuring</a>, a wooden plank we found in an alley in Chicago, rocks I have collected from my travels, cheap metal bangles, keychains and bottles.</p>
+    <h3>CLEAT at Elastic Arts</h3>
+
+    <div className="image-container">
+      <img src={ititis1} alt="rob and santiago performing with a plank of wood and microphones" />
+    </div>
+    <div className="image-container">
+      <img src={ititis2} alt="rob and santiago performing with a plank of wood and microphones" />
+    </div>
+    <div className="image-container">
+      <img src={ititis3} alt="rob and santiago performing with a plank of wood and microphones" />
+    </div>
+    <h3>ColorClub Tavern</h3>
+    <div className="image-container">
+      <img src={ititis4} alt="rob and santiago performing with a plank of wood and microphones" />
+    </div>
+    <div className="image-container">
+      <img src={ititis5} alt="rob and santiago performing with a plank of wood and microphones" />
+    </div>
+  </>
+)
+
 export const ODeath = () => (
   <>
     <h2>o death</h2>
   <p>a music performance Directed by Santiago Quintana<br/>co-produced with Evan J Thompson</p>
-  <p>november 5th at Facility Theater, Chicago IL - <a href="https://www.eventbrite.com/e/o-death-facility-theatre-tickets-439655239657">tickets</a><br/>november 11th at Color Club, Chicago IL - <a href="https://www.eventbrite.com/e/o-death-color-club-tickets-439205313917" target="_blank" rel="noreferrer">tickets</a></p>
+  <p>november 5th at Facility Theater, Chicago IL <br/>november 11th at Color Club, Chicago IL</p>
   <p><NavLink to="/o-death/program-notes">program notes</NavLink></p>
     <div className="image-container">
-      <img src={odeath} alt="A.I. generated skeleton holding a banjo in a foggy wetland" />
+      <img src={odeathCover} alt="A.I. generated skeleton holding a banjo in a foggy wetland" />
     </div>
     <p>o death is an electroacoustic treatment of North Atlantic traditional/folk and old time music about death. In the show we meet Death in the mountains, travel to Britain by ship, get lost in southern Spain, take a detour to Mexico, and return to the United States just in time to twirl with those beyond the veil. We tell tales of those who have past, share foreboding dreams of dead lovers, honor the departed, defy death itself, and dance with the devil.</p>
+    <h3>Facility Theater</h3>
+
+    <div className="image-container">
+      <img src={oDeath1} alt="evan and santiago singing and performing" />
+    </div>
+    <div className="image-container">
+      <img src={oDeath2} alt="evan and santiago singing and performing" />
+    </div>
+    <div className="image-container">
+      <img src={oDeath3} alt="evan and santiago singing and performing" />
+    </div>
+    <div className="image-container">
+      <img src={oDeath4} alt="evan and santiago singing and performing" />
+    </div>
   </>
 )
 

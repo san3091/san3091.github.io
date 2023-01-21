@@ -3,7 +3,7 @@ import { Outlet } from 'react-router-dom'
 import Nav from './Nav'
 import { useState, useEffect} from 'react'
 
-const sections = ["bio", "o-death", "ngn", "experiments"]
+const sections = ["bio", "it-it-is", "o-death", "ngn", "experiments"]
 
 const Base = () => {
 
