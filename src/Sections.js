@@ -97,18 +97,21 @@ export const ODeathProgramNotes = () => (
       <p><strong>death and the lady</strong><br/> this ballad was printed on a broadside by J. Deacon sometime between 1683 and 1700. it was printed as <em>The Great Messenger of Mortality, or a Dialogue betwixt Death and a Lady.</em></p>
       <p><strong>cluck, old hen</strong><br/> appalachian tune, dates uncertain. earliest reported transcription dates from 1886</p>
       <p><strong>o death</strong><br/> traditional Appalachian folk song generally attributed to the musician and Baptist preacher Lloyd Chandler, but it was likely taken or adapted from folk songs already existing in the region. encounters with a personified "Death" featured in traditional English songs which possibly date to the 14th century.</p>
+  <p><strong>old lady and the devil</strong><br/> an american rendition of Child Ballad #278 (The Farmer's Curst Wife), from the mid 18th century.</p>
       <p><strong>undone in sorrow</strong><br/> song by Ola Belle Reed (1916 - 2002)</p>
     <h3>act 2</h3>
-      <p><strong>living by the water</strong><br/> song by Anne Briggs written in 1971</p>
+      <p><strong>ocean burial</strong><br/> published in 1850 composed by George N. Allen in Boston, MA.</p>
       <p><strong>three score and ten</strong><br/> broadside ballad commemorating a tragic storm off Grimsby and Hull in February 1889, here sung as a shanty.</p>
       <p><strong>lowlands</strong><br/> most likely a fragment of an Anglo-Scots ballad, full form forgotten, that lived on among British sailors who passed it on to longshoremen in the Gulf ports. it has often been found in tradition in Britain and USA but always as a sailor shanty. here sung as a ballad inspired by Anne Briggs' rendition and other field recordings, which is likely closer to its original form before it took to sea.</p>
       <p><strong>he moved through the fair</strong><br/> traditional Irish folk song of unknown origin. first collected and published in 1909 in Herbert Hughes' <em>Irish Country Songs.</em></p>
       <p><strong>health to the company</strong><br/> traditional Irish song, here sung as a shanty. the earliest written examples date from 1875, but at least one source claims it was performed as early as 1836. it was particularly popular in Ireland and Scotland in the early-to-mid 19th century, which both saw a great deal of emigration in that era due to unemployment, evictions, and famine.</p>
     <h3>act 3</h3>
-      <p><strong>por soleá</strong><br/> original composition with lyrics from flamenco song <em>yo no le temo a la muerte</em> - i'm not afraid of death. Samples taken from flamenco legends Camaron de la Isla, La Paquera de Jerez, and Concha Buika.</p>
-      <p><strong>barca de oro</strong><br/>by Arcadio Zúñiga y Tejeda arrangement by Andrés Penella Gómez</p>
+      <p><strong>prayer of a miner's child</strong><br/>ballad by Dock Boggs released in 1970.</p>
+      <p><strong>only a miner been killed in the ground</strong><br/>one of many versions that can be traced back to John Wallace Crawford's in 1879. Crawford was a scottish child immigrant, civil war volunteer, gold seeker, actor, playwright, and poet.</p>
+      <p><strong>black lung</strong><br/>written in 1973 by Hazel Dickens about her brother's stuggle with the miner's disease black lung.</p>
+      <p><strong>dreadful memories</strong><br/>released in 1965 by Sarah Ogan Gunning, famous for 'I hate the capitalist system' documenting the death of her husband and child and friends by the mines and capitalist greed.</p>
     <h3>act 4</h3>
-      <p><strong>long time traveling (white)</strong><br/>north american hymn normally called <em>white</em> in tribute to Benjamin Franklin White, compiler of <em>The Sacred Harp</em> (1844). Arrangement by Anna & Elizabeth</p>
+      <p><strong>long time traveling (white)</strong><br/>north american hymn normally called <em>white</em> in tribute to Benjamin Franklin White, compiler of <em>The Sacred Harp</em> (1844).</p>
       <p><strong>i'll fly away</strong></p>
   </>
 )
