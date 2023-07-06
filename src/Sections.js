@@ -46,8 +46,7 @@ export const ItItIs = () => (
 export const ODeath = () => (
   <>
     <h2>o death</h2>
-  <p>a music performance Directed by Santiago Quintana<br/>co-produced with Evan J Thompson</p>
-  <p>november 5th at Facility Theater, Chicago IL <br/>november 11th at Color Club, Chicago IL</p>
+  <p>a music performance directed by Santiago Quintana</p>
   <p><NavLink to="/o-death/program-notes">program notes</NavLink></p>
     <div className="image-container">
       <img src={odeathCover} alt="A.I. generated skeleton holding a banjo in a foggy wetland" />
