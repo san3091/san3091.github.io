@@ -1,53 +1,72 @@
 import React, { useState } from "react";
 
 const ClinicalProjection = () => {
-  // State variables for each input
+  // State variables for inputs
   const [relHours, setRelHours] = useState(0);
   const [nonRelHours, setNonRelHours] = useState(0);
-  const [currentWeek, setCurrentWeek] = useState(20);
+  // Use an ISO date string for the date input; default to internship start date (January 1, 2025)
+  const [currentDate, setCurrentDate] = useState("2025-01-01");
   const [currentCases, setCurrentCases] = useState(5);
   const [cancellationPercent, setCancellationPercent] = useState(20);
 
-  // Fixed requirements
+  // Fixed internship requirements and dates
   const totalRequirement = 400;
   const relationalRequirement = 125;
-  const totalWeeks = 65;
-  const remainingWeeks = Math.max(1, totalWeeks - currentWeek + 1);
+  const internshipEndDate = new Date("2026-04-30");
 
-  // Hours calculations
+  // Compute remaining weeks from the current date input
+  const currentDateObj = new Date(currentDate);
+  const msPerWeek = 1000 * 60 * 60 * 24 * 7;
+  let remainingWeeks = 0;
+  if (internshipEndDate > currentDateObj) {
+    remainingWeeks = Math.ceil((internshipEndDate - currentDateObj) / msPerWeek);
+  }
+  // Ensure we display at least 1 week if the internship hasn't ended
+  remainingWeeks = Math.max(remainingWeeks, 1);
+
+  // Hours calculations based on requirements so far
   const totalEarned = relHours + nonRelHours;
   const relNeededTotal = Math.max(0, relationalRequirement - relHours);
   const totalNeededTotal = Math.max(0, totalRequirement - totalEarned);
   const nonRelNeededTotal = Math.max(0, totalNeededTotal - relNeededTotal);
 
-  // Weekly requirement calculations (rounded up)
+  // Weekly requirement calculations (rounded up to whole hours)
   const relNeededPerWeek = Math.ceil(relNeededTotal / remainingWeeks);
   const nonRelNeededPerWeek = Math.ceil(nonRelNeededTotal / remainingWeeks);
   const totalNeededPerWeek = Math.ceil(totalNeededTotal / remainingWeeks);
 
-  // Each case contributes 1 hour per week adjusted for cancellations/no-shows
+  // Each case ideally contributes 1 hour per week, adjusted for cancellations/no-shows.
   const effectiveHoursPerCase = 1 - cancellationPercent / 100;
   const projectedTotalCasesNeeded = Math.ceil(totalNeededPerWeek / effectiveHoursPerCase);
-  const additionalCasesNeeded = Math.ceil(
-    Math.max(0, projectedTotalCasesNeeded - currentCases)
-  );
+  const additionalCasesNeeded = Math.ceil(Math.max(0, projectedTotalCasesNeeded - currentCases));
 
   return (
     <div style={{ maxWidth: "800px", margin: "20px auto", fontFamily: "Arial, sans-serif" }}>
       <h1>Clinical Hours and Cases Projection</h1>
       <p>
-        Input your current progress below to see the projections for what you need to achieve
-        by graduation (400 hours total with at least 125 relational hours) over a 65-week internship
-        (from January 2025 to April 2026).
+        Input your current progress below to see the projections for what you need to achieve by graduation
+        (400 hours total with at least 125 relational hours before to April 2026).
       </p>
 
       <div style={{ marginBottom: "20px" }}>
         <label>
-          Relational Hours to Date (0–150):{" "}
+          Date (YYYY-MM-DD):{" "}
+          <input
+            type="date"
+            value={currentDate}
+            onChange={(e) => setCurrentDate(e.target.value)}
+            style={{ marginLeft: "10px" }}
+          />
+        </label>
+      </div>
+
+      <div style={{ marginBottom: "20px" }}>
+        <label>
+          Relational Hours to Date:{" "}
           <input
             type="number"
             min="0"
-            max="150"
+            max="500"
             value={relHours}
             onChange={(e) => setRelHours(Number(e.target.value))}
             style={{ marginLeft: "10px" }}
@@ -57,11 +76,11 @@ const ClinicalProjection = () => {
 
       <div style={{ marginBottom: "20px" }}>
         <label>
-          Non‐Relational Hours to Date (0–300):{" "}
+          Non‐Relational Hours to Date:{" "}
           <input
             type="number"
             min="0"
-            max="300"
+            max="500"
             value={nonRelHours}
             onChange={(e) => setNonRelHours(Number(e.target.value))}
             style={{ marginLeft: "10px" }}
@@ -71,21 +90,7 @@ const ClinicalProjection = () => {
 
       <div style={{ marginBottom: "20px" }}>
         <label>
-          Current Week (1–65):{" "}
-          <input
-            type="number"
-            min="1"
-            max="65"
-            value={currentWeek}
-            onChange={(e) => setCurrentWeek(Number(e.target.value))}
-            style={{ marginLeft: "10px" }}
-          />
-        </label>
-      </div>
-
-      <div style={{ marginBottom: "20px" }}>
-        <label>
-          Current Number of Cases (0–20):{" "}
+          Current Number of Cases:{" "}
           <input
             type="number"
             min="0"
@@ -94,12 +99,12 @@ const ClinicalProjection = () => {
             onChange={(e) => setCurrentCases(Number(e.target.value))}
             style={{ marginLeft: "10px" }}
           />
-        </label>
+        </label> 
       </div>
 
       <div style={{ marginBottom: "20px" }}>
         <label>
-          Percent Cancellations/No-Shows (0–50%):{" "}
+          Percent Cancellations/No-Shows (e.g. 15%):{" "}
           <input
             type="number"
             min="0"
@@ -111,14 +116,7 @@ const ClinicalProjection = () => {
         </label>
       </div>
 
-      <div
-        style={{
-          border: "1px solid #ddd",
-          background: "#f8f8f8",
-          padding: "10px",
-          marginTop: "20px"
-        }}
-      >
+      <div style={{ border: "1px solid #ddd", background: "#f8f8f8", padding: "10px", marginTop: "20px" }}>
         <h2>Calculated Projections</h2>
         <p>
           <strong>Remaining Weeks:</strong> {remainingWeeks}
@@ -150,4 +148,3 @@ const ClinicalProjection = () => {
 };
 
 export default ClinicalProjection;
-
