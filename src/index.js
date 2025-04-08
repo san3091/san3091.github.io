@@ -6,12 +6,18 @@ import {
 } from 'react-router-dom';
 import Base from './Base'
 import NotFound from './NotFound'
+import ClinicRequirements from './ClinicRequirements'
 import { Bio, ItItIs, ODeath, Ngn, Experiments, ODeathProgramNotes } from './Sections'
 import './index.css';
 import './App.css';
 import reportWebVitals from './reportWebVitals';
 
 const router = createHashRouter([
+  {
+    path: "clinic",
+    element: <ClinicRequirements />,
+    errorElement: <NotFound />,
+  },
   {
     path: "/",
     element: <Base />,
