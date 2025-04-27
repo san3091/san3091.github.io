@@ -120,6 +120,7 @@ const DSIRForm = () => {
   return (
     <div style={{ fontFamily: 'Arial, sans-serif', padding: 20 }}>
       <h2>DSI-R Questionnaire</h2>
+      <p>These are questions concerning your thoughts and feelings about yourself and relationships with others. Please read each statement carefully and decide how much the statement is generally true of you on a 1 (not at all) to 6 (very) scale. If you believe that an item does not pertain to you (e.g., you are not currently married or in a committed relationship, or one or both of your parents are deceased), please answer the item according to your best guess about what your thoughts and feelings would be in that situation. Be sure to answer every item and try to be as honest and accurate as possible in your responses.</p>
       <form>
         {questions.map((text, idx) => {
           const qNum = idx + 1;
