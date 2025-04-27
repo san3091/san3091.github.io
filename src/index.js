@@ -7,6 +7,7 @@ import {
 import Base from './Base'
 import NotFound from './NotFound'
 import ClinicRequirements from './ClinicRequirements'
+import DSIRForm from './DSIRForm'
 import { Bio, ItItIs, ODeath, Ngn, Experiments, ODeathProgramNotes } from './Sections'
 import './index.css';
 import './App.css';
@@ -16,6 +17,11 @@ const router = createHashRouter([
   {
     path: "clinic",
     element: <ClinicRequirements />,
+    errorElement: <NotFound />,
+  },
+  {
+    path: "dsir",
+    element: <DSIRForm />,
     errorElement: <NotFound />,
   },
   {
